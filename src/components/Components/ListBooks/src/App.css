@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/static/Montserrat-Regular.ttf");
+}
+
+:root {
+  font-family: "Montserrat";
+}
+
+.container {
+  margin: 20px;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

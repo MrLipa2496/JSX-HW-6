@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formLabel {
+  display: flex;
+  align-items: center;
+}
+
+.formInput {
+  flex-grow: 1;
+  margin-left: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formTextarea {
+  flex-grow: 1;
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 80px;
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.submitBtn:hover {
+  background-color: #006adc;
+}

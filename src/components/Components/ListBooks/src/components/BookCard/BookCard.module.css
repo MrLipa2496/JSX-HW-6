@@ -1,0 +1,38 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 450px;
+  min-height: 800px;
+  border: 1px solid gray;
+  margin: 20px;
+}
+
+.cardImg {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 40px;
+}
+
+.contentWrapper {
+  padding: 20px;
+  line-height: 25px;
+}
+
+.cardTitle,
+.bookAuthor,
+.bookRating,
+.bookComment {
+  font-weight: bold;
+}
+
+.cardTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bookRatingWrapper {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,76 @@
+.weatherWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #7e9cee;
+  max-width: 800px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 20px;
+  min-height: 30px;
+}
+
+.weatherWrapper,
+.unitsWrapper,
+.infoWrapper {
+  border-radius: 20px;
+}
+
+.unitsWrapper,
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background-color: #7814d0c9;
+  padding: 10px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.containInfo,
+.infoTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.infoTitle {
+  text-align: center;
+}
+
+.unitsSelect {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #929ddd;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.windTempWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 125px;
+  margin: 0 auto;
+}
+
+.units {
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.sign {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .weatherWrapper {
+    flex-direction: column;
+    min-height: 500px;
+  }
+}
